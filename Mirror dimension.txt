@@ -1,0 +1,6 @@
+# QUESTION NO.2 : WRITE A PYTHON PROGRAM THAT ACCEPTS A WORD FROM THE USER AND REVERSE ORDER
+
+name = input("Enter the name:")
+reverse_name = name[::-1]
+
+print(reverse_name)
