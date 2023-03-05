@@ -1,0 +1,15 @@
+ # QUESTION NO.3 : WRUTE A PYTHON PROGRAM TO COUNT THE NUMBER OF EVEN AND ODD NUMBERS FROM A SERIES OF NUMBERS.
+
+num = (1,2,3,4,5,6,7,8,9)
+
+even_count = 0
+odd_count = 0 
+
+for i in num:
+    if i % 2 == 0:
+        even_count += 1
+    else:
+        odd_count += 1
+
+print("Number of even numbers:",even_count)
+print("Number of even numbers:",odd_count)
