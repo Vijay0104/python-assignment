@@ -1,0 +1,12 @@
+
+# QUESTION NO.1 : WRITE A PYTHON PROGRAM TO GET FIBONACCI SERIES BETWEEN 0 TO 50
+
+
+#fibonical series - 0, 1, 1, 2, 3, 5, 8, 13, 21, ....
+
+num = 0
+num2 = 1
+
+while num2 <= 50:
+    print(num2,end = " ")
+    num,num2 = num2 , num + num2
